@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.content{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #eee;
+	overflow: hidden;
+}
+.content .text{
+	position: absolute;
+	width: 300px;
+	right: -300px;
+	color: #000;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background: #e4cdca;
+}
+.send{
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	transform: translateX(-50%);
+	height: 40px;
+}
+.send span{
+	line-height: 40px;
+}
+.send input{
+	height: 30px;
+	margin-top:10px;
+	border: none;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+.send button{
+	border: none;
+	height: 30px;
+	width: 80px;
+	border-radius: 5px;
+	background: #f00;
+	margin-left: 10px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: 600
+}
